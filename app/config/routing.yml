@@ -2,3 +2,7 @@ prismic:
     resource: "@PrismicBundle/Resources/config/routing.xml"
     prefix:   /
 
+acme_demo:
+    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+

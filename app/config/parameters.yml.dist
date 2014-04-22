@@ -18,3 +18,12 @@ parameters:
     prismic_access_token:     null
     prismic_client_id:        null
     prismic_client_secret:    null
+
+    phpcr_backend:
+        logging: true
+        profiling: true
+        type: prismic
+        url: https://%s.prismic.io/api
+    phpcr_workspace: lesbonneschoses
+    phpcr_user: null
+    phpcr_pass: null
